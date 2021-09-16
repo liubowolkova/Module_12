@@ -20,12 +20,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let viewSize = view.frame.size
         view.addSubview(scrollView)
         
         scrollView.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         scrollView.heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
         scrollView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         scrollView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        
+        scrollView.contentSize = CGSize(width: viewSize.width, height: viewSize.height * 2)
     }
 
 
