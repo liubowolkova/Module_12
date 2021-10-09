@@ -1253,6 +1253,7 @@
 		522A477D26F2360F00B8312F /* Module_12 */ = {
 			isa = PBXGroup;
 			children = (
+				525D4FDE26F2CB1400D1C9CC /* Components */,
 				522A477E26F2360F00B8312F /* AppDelegate.swift */,
 				522A478026F2360F00B8312F /* SceneDelegate.swift */,
 				522A478226F2360F00B8312F /* ViewController.swift */,
@@ -3452,6 +3453,13 @@
 				522A4C4526F2B7A600B8312F /* ISSUE_TEMPLATE */,
 			);
 			path = .github;
+			sourceTree = "<group>";
+		};
+		525D4FDE26F2CB1400D1C9CC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

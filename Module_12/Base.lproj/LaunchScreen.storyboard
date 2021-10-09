@@ -16,27 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lounch_screen_img" translatesAutoresizingMaskIntoConstraints="NO" id="ycS-J8-03H">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inner-logo" translatesAutoresizingMaskIntoConstraints="NO" id="1Bc-sh-Ebs">
+                                <rect key="frame" x="10" y="371.5" width="394" height="153"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by liubowolkova" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1V-Wu-mdI">
-                                <rect key="frame" x="135" y="817" width="144.5" height="25"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="6" height="-1"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ycS-J8-03H" secondAttribute="bottom" id="5qP-BU-iky"/>
-                            <constraint firstItem="n1V-Wu-mdI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Dh8-k2-0yW"/>
-                            <constraint firstItem="ycS-J8-03H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="M5p-Wo-y7E"/>
-                            <constraint firstItem="ycS-J8-03H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vpg-1z-Zlp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n1V-Wu-mdI" secondAttribute="bottom" constant="20" id="Yr4-sX-ZDP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ycS-J8-03H" secondAttribute="trailing" id="mBi-YZ-SrJ"/>
+                            <constraint firstItem="1Bc-sh-Ebs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="NrA-z9-Ydz"/>
+                            <constraint firstItem="1Bc-sh-Ebs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="lUL-zt-4SH"/>
+                            <constraint firstItem="1Bc-sh-Ebs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pEZ-ZY-asg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Bc-sh-Ebs" secondAttribute="trailing" constant="10" id="uTU-WD-Xig"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -46,7 +36,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="lounch_screen_img" width="1280" height="1920"/>
+        <image name="inner-logo" width="517" height="153"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
